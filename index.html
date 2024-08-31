@@ -1,0 +1,60 @@
+<link href="https://fonts.cdnfonts.com/css/varsity-2" rel="stylesheet">
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>TRUE or FALSE</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>
+                <span class="true" onclick="validate('true')"> TRUE </span>
+                <span class = "or"> or </span>
+                <span class="false" onclick="validate('false')"> FALSE </span>
+            </h1>
+            <br>
+        </header>
+
+        <div class="questionbox">
+        
+            <div class="info">
+                <div id="categorybox" class="category">
+                    Category - <span id="category"></span>
+                    <span id="select"></span>
+                </div>
+                
+                <div class="score">
+                    <span class="correctAswers" id="correctAswers"></span>
+                    -
+                    <span class="wrongAswers" id="wrongAnswers"></span>
+                </div>
+                
+            </div> 
+            
+            <div class="question">
+                <span id="question"></span>
+                <div class="result">
+                    <br>
+                    <br>
+                    <span id="result"> </span>
+                    <br>
+                </div>
+            </div>
+            <div class="button">
+                <div class="buttontrue" onclick="validate('true')" id="buttontrue"> TRUE </div>
+                <div class="buttonnext" onclick="getQuestion()" id="buttonnext"> NEXT </div>
+                <div class="buttonfalse" onclick="validate('false')" id="buttonfalse"> FALSE </div>
+            </div>
+
+
+        </div>
+
+    </body>
+    
+</html>

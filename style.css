@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/varsity-2');
+
+h1 {
+    /*background-color: #E9B824;*/
+    text-align: center;
+    font-family: 'Varsity', sans-serif;
+    font-size: 120px;
+}
+.true{
+    color: #219C90;
+    cursor: pointer;
+}
+.or{
+    color:#EEEEEE;
+}
+.false{
+    color: #D83F31;
+    cursor: pointer;
+}
+
+body{
+    padding: 10px;
+    background: #222831;
+    background-attachment: fixed; /*edit*/
+    font-family: 'georgia', serif;
+    color:#222831;
+
+}
+
+.questionbox{
+    text-align: center;
+    margin: 0px 300px;
+
+}
+.info {
+    background-color: #EEEEEE;
+    padding: 30px;
+    font-size: 35px;
+    border-radius: 10px 10px 0px 0px;
+    border-color: #393E46;
+    border-style: solid;
+    column-gap: 5px;
+    display: flex;
+}
+.category {
+    text-align: start;
+    flex-grow: 3;
+}
+.score{
+    font-family: 'Varsity', sans-serif;
+    font-size: 45px;
+    flex-grow: 1;
+    text-align: end;
+}
+.correctAswers{
+    color: #219C90;
+}
+.wrongAswers{
+    color:#D83F31;
+}
+.question{
+    background-color: #EEEEEE;
+    font-size: 25px;
+    padding: 70px 70px 40px 70px;
+    border-color: #393E46;
+    border-style: solid;
+}
+.result{
+    text-emphasis: bold;
+    font-family: 'Varsity', sans-serif;
+    font-size: 50px;
+}
+.button{
+    background-color: #393E46;
+    border-color: #393E46;
+    border-style: solid;
+    border-radius: 0px 0px 10px 10px;
+    color: EEEEEE;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+}
+.buttontrue{
+    background-color: #219C90;
+    border-radius: 0px 0px 0px 10px;
+    flex-grow: 1000;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Varsity', sans-serif;
+}
+.buttonfalse{
+    background-color: #D83F31;
+    border-radius: 0px 0px 10px 0px;
+    flex-grow: 1000;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Varsity', sans-serif;
+}
+.buttonnext{
+    background-color: #EE9322;
+    color: #EEEEEE;
+    flex-grow: 1;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Varsity', sans-serif;
+}
+
